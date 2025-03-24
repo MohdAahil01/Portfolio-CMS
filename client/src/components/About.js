@@ -1,26 +1,14 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React from 'react';
 
-function About() {
+const About = () => {
   return (
-    <motion.div
-      className="about-section text-center py-5"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
-      <img
-        src="https://via.placeholder.com/150" // Replace with your profile picture
-        alt="Profile"
-        className="rounded-circle mb-3"
-        style={{ width: "150px", height: "150px" }}
-      />
-      <h2>Aahil Shaikh</h2>
-      <p className="lead">Full-Stack Developer | Passionate about building scalable web apps</p>
+    <div className="about-section">
+      <h1>About Me</h1>
       <p>
-        Skills: React, Node.js, Express, MongoDB, Docker, AWS
+        I’m a passionate Computer Science student at Sharda University, specializing in full-stack development with the MERN stack (MongoDB, Express.js, React.js, Node.js). I enjoy building responsive, user-focused web applications and have experience with JavaScript, RESTful APIs, and database management. I’m skilled in version control with Git and GitHub, and I’m committed to creating scalable, maintainable solutions. Through projects like a portfolio CMS, a hotel rental platform, and a weather widget, I’ve honed my skills in both frontend and backend development. I’m eager to contribute to innovative projects and grow as a developer!
       </p>
-    </motion.div>
+    </div>
   );
-}
+};
+
 export default About;

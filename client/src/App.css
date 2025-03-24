@@ -12,6 +12,7 @@
   }
   
   .project-card {
+    margin-top: .5rem;
     transition: transform 0.3s;
   }
   
@@ -33,4 +34,14 @@
   .contact-section {
     background-color: #e9ecef;
     padding: 50px 0;
+  }
+  .about-section {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .about-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
   }
